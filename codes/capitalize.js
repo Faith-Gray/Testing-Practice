@@ -1,5 +1,5 @@
-function capitalize(cat) {
-    return cat.charAt(0).toUpperCase() + cat.slice(1);
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 export default capitalize;
